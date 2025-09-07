@@ -15,12 +15,11 @@
 
 ### How does Quartz help?
 `quartz` has four main sub-commands:
-- `net`: Through this command you will control your internet access. you can `enable` your current internet interface (after configuring it). you also configure a `max-net-time` parameter (in minutes) which is the maximum time for which the internet can be continuously in-use. when this time finishes, quartz will disable your current network interface. after that you can either manually enable it to continue what you were doing using `net` (causing the timer to start again) or do something more useful. The idea is by segmenting internet usage into `max-net-time`-long sessions you can be more conscious of what you do on the internet and how much time it consumes. allowing you to reflect and reconsider what you do or organize your time more wisely. </br>
-  (details of how the process of enabling internet-access will be hard is not yet decided) </br>
+- `net`: Through this command you will control your internet access. configure internet-access levels using `net-level-N` config keys where N is a positive integer. the value for each key is a set of domains that you allow acccess to. `net-level-0` is always set to `[]` (internet access is fully disabled). `net-level-1` can have a set of work/study/research related domains that you need. `net-level-2`  can contain a set of domains for messaging and `net-level-3` can be full unrestricted internet-access (you can configure any number of levels you want). each level is a superset of the lower level. for each level there is a corresponding settings structure containing the condition to jump to the level, and the level's `level-time` which is the maximum time you can continuously spend on that level. after that time finishes you get kicked to the lower level (naturally, the higher the level the lower the `level-time`). after that you can either manually bump the current level up to continue what you were doing (causing the timer to start again) or do something more useful. The idea is by segmenting internet usage into sessions on different levels you can be more conscious of what you do on the internet and how much time it consumes. allowing you to reflect and reconsider what you do or organize your time more wisely. <br/>
   ### ***Examples:*** <br/>
   ```
-  quartz net --enable-interace wlan0 # you have to explicitly use the full command
-  quartz net                         # no flags disables internet by default for convenience
+  quartz net +2     # jump up two levels (you're not allowed to jump from level 0 to the highest level at once.)
+  quartz net        # drops down to the `quartz-net-default-level` specified in the configuration
   ```
 
 - `habit`: Through this command, you can register habits you want to build/destroy. as of now this command's only use is to store habit information for `fetch` (see `fetch`). The `habit-automaticity` key in the config sets the personal time to build a good habit whereas `habit-removal` sets personal time to remove one (quartz will pick reasonable defaults for both keys).
