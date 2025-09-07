@@ -20,7 +20,7 @@
   ### ***Examples:*** <br/>
   ```
   quartz net --enable-interace wlan0 # you have to explicitly use the full command
-  quartz net                         # no arguments disables internet by default for convenience
+  quartz net                         # no flags disables internet by default for convenience
   ```
 
 - `habit`: Through this command, you can register habits you want to build/destroy. as of now this command's only use is to store habit information for `fetch` (see `fetch`). The `habit-automaticity` key in the config sets the personal time to build a good habit whereas `habit-removal` sets personal time to remove one (quartz will pick reasonable defaults for both keys).
