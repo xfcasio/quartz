@@ -22,7 +22,7 @@
   quartz net        # drops down to the `quartz-net-default-level` specified in the configuration
   ```
 
-- `habit`: Through this command, you can register habits you want to build/destroy. as of now this command's only use is to store habit information for `fetch` (see `fetch`). The `habit-automaticity` key in the config sets the personal time to build a good habit whereas `habit-removal` sets personal time to remove one (quartz will pick reasonable defaults for both keys).
+- `habit`: Through this command, you can register habits you want to build/destroy. as of now this command's only use is to store habit information for `fetch` to be used as a digitized calender to track when will habit automaticity be reached (see `fetch`). The `habit-automaticity` key in the config sets the personal time to build a good habit whereas `habit-removal` sets personal time to remove a bad habit (quartz will pick reasonable defaults for both keys).
   ### ***Examples:*** <br/>
   ```
   quartz habit --build 'spending less than 4 hours everyday online' # can use `-b` as shorthand
