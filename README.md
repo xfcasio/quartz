@@ -40,7 +40,7 @@ This command takes a topic name as an argument then spawns an interactive TUI ch
   ```
 
 ### `search`:
-Searches the internet for resources and answers but doesn't serve up information on a silver plate. instead it gives you the resources forcing you to not fully rely on the AI and instead read and absorb the information yourself. thus, ahieving `R5`. <br/>
+Searches the internet for resources and answers but doesn't serve up information on a silver plate. instead it gives you the resources forcing you to not fully rely on the AI and instead read and absorb the information yourself. thus, achieving `R5`. <br/>
   ### ***Example:*** <br/>
   ```
   quartz search 'What is the binary layout of a descriptor in the x86_64 IDT?'
