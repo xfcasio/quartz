@@ -1,0 +1,12 @@
+# 12-hour format is used globally in config
+
+#  ▛▀▘             ▜
+#  ▙▄ ▚▗▘▝▀▖▛▚▀▖▛▀▖▐ ▞▀▖
+#  ▌  ▗▚ ▞▀▌▌▐ ▌▙▄▘▐ ▛▀
+#  ▀▀▘▘ ▘▝▀▘▘▝ ▘▌   ▘▝▀▘
+
+[net-levels]
+# net-level-0 = { time-hours = unlimited, sites = [] } <- built-in
+net-level-1 = { time-hours = 5, sites = [/* study/work resources */] }
+net-level-2 = { time-hours = 2, sites = [/* messagnig/communications */], transition-hours = [8, 10, 2, 4] }
+net-level-3 = { time-hours = 3, sites = [/* open internet */], transition-hours = [10, 4] }
