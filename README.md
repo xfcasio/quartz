@@ -1,6 +1,6 @@
 <div align="center">
     <img src="https://readme-typing-svg.demolab.com/?font=Parisienne&size=76&pause=0&duration=1&color=A9A9A9&background=000A0E&center=true&vCenter=true&width=600&height=150&repeat=false&lines=Quartz"><br/><br/>
-    <samp><b>May Quartz be your salvation from digital psychosis.</b></samp><br/><br/>
+    <samp><b>May this be your salvation from digital psychosis.</b></samp><br/><br/>
 </div>
 
 ##
