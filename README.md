@@ -1,18 +1,21 @@
 <div align="center">
-    <img src="https://readme-typing-svg.demolab.com/?font=Cartograph%20CF%20Italic&weight=700&size=76&pause=0&duration=1&color=A9A9A9&background=000A0E&center=true&vCenter=true&width=600&height=150&repeat=false&lines=Quartz">
+    <img src="https://readme-typing-svg.demolab.com/?font=Parisienne&size=76&pause=0&duration=1&color=A9A9A9&background=000A0E&center=true&vCenter=true&width=600&height=150&repeat=false&lines=Quartz"><br/><br/>
+    <samp><b>May Quartz be your salvation from digital psychosis.</b></samp><br/><br/>
 </div>
 
+##
+
 > [!NOTE]
->  Target end-user of this tool: individuals aiming to take control of their lives one day at a time by:
->    * eliminating self-destructive habits and time-sinks such as unrestricted internet access.
->    * cultivating new good habits.
->    * maximizing and optimizing the process of acquiring new knowledge.
+>  <samp>Target end-user of this tool: individuals aiming to take control of their lives one day at a time by:</samp>
+>    * <samp>eliminating self-destructive habits and time-sinks such as unrestricted internet access.</samp>
+>    * <samp>cultivating new good habits.</samp>
+>    * <samp>maximizing and optimizing the process of acquiring new knowledge.</samp>
 ### Philosophy of Quartz:
-- `R1`: Connecting to the internet should be a conscious decision.
-- `R2`: Connecting to the internet should be ***hard*** and disconnecting should be ***easy*** to encourage using it more moderately.
-- `R3`: On average it takes 2 months to form a new habit. To help reach this time goal, It's important to track it closely to not forget and relapse.
-- `R4`: Explaining what was learned to a critical audience is important to identify holes in understanding (The Feynman technique).
-- `R5`: reliance on AI should be minimized and restricted to not develop cognitive debt. 
+- `R1`: <samp>Connecting to the internet should be a conscious decision.</samp>
+- `R2`: <samp>Connecting to the internet should be ***hard*** and disconnecting should be ***easy*** to encourage using it more moderately.</samp>
+- `R3`: <samp>On average it takes 2 months to form a new habit. To help reach this time goal, It's important to track it closely to not forget and relapse.</samp>
+- `R4`: <samp>Explaining what was learned to a critical audience is important to identify holes in understanding (The Feynman technique).</samp>
+- `R5`: <samp>reliance on AI should be minimized and restricted to not develop cognitive debt.</samp>
 
 ## How does Quartz help?
 `quartz` has five main sub-commands:
