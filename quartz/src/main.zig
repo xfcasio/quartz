@@ -34,9 +34,9 @@ fn usage() noreturn {
         \\
         \\Commands:
         \\  net      -   Internet access control
-        \\  habit    -   Habit tracking/management
-        \\  feynman  -   Apply the feynman technique with an LLM
         \\  search   -   Semantic search engine over local knowledge base
+        \\  feynman  -   Apply the feynman technique with an LLM
+        \\  habit    -   Habit tracking/management
         \\  fetch    -   Fetch tracked statistics
         , .{}
     );
