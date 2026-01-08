@@ -1,1 +1,2 @@
-/target
+/quartz/zig-out
+/quartz/.zig-cache
