@@ -13,6 +13,7 @@ pub fn build(b: *std.Build) void {
             .imports = &.{},
         }),
     });
+    exe.linkLibC();
 
     b.installArtifact(exe);
 
